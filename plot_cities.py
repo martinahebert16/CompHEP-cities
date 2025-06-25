@@ -1,8 +1,10 @@
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 
-cities = [["Chicago",48, -100],
-          ["Boston", 49, -90]]
+cities = [["Chicago",41.88, -87.63],
+          ["Boston", 42.36, -71.06], 
+          ["Salt Lake City", 40.76, -111.89],
+          ["San Fransisco", 37.77, -122.42]]
 scale = 5
 
 map = Basemap(llcrnrlon=-119,llcrnrlat=22,urcrnrlon=-64,urcrnrlat=49,
