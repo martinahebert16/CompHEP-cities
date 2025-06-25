@@ -12,8 +12,8 @@ map = Basemap(llcrnrlon=-119,llcrnrlat=22,urcrnrlon=-64,urcrnrlat=49,
 
 map.drawstates()
 map.drawcoastlines()
-map.drawstates()
-map.drawmapboundary()
+map.drawmapboundary(fill_color='blue')
+map.fillcontinents(color='yellow', lake_color='blue')
 map.drawcountries()
 
 # Get the location of each city and plot it
